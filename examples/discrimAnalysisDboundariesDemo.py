@@ -2,8 +2,8 @@
 
 import matplotlib.pyplot as pl
 import numpy as np
-from sklearn.lda import LDA
-from sklearn.qda import QDA
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis as QDA
 
 c = 'bgr'
 m = 'xos'
